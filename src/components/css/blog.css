@@ -1,0 +1,7 @@
+.blogSection .card-body {
+  cursor: pointer;
+}
+.blogSection .card-body:hover {
+  color: #e6e6e6 !important;
+  background-color: #09de90;
+}

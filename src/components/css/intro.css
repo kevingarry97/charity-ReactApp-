@@ -1,0 +1,25 @@
+/* .introSection {
+   background: linear-gradient(100deg, #008aff, #ff137d),
+    url("https://cdn.pixabay.com/photo/2015/11/09/14/43/laptop-1035345_960_720.jpg");
+  background-blend-mode: screen; 
+} */
+.custom-shape-divider-bottom-1605093493 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1605093493 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 171px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1605093493 .shape-fill {
+  fill: #f3f2f2;
+}
