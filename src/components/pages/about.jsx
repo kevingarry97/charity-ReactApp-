@@ -3,7 +3,6 @@ import Navbar from '../navbar';
 import { Payment } from '@material-ui/icons';
 import '../css/about.css';
 import Team from '../team';
-import Mission from '../mission';
 import Footer from '../footer';
 import Blog from '../blog';
 
@@ -22,7 +21,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="col-md-6 offset-md-1">
-                            <div class="aboutSide">
+                            <div className="aboutSide">
                                 <div className="card" style={{ height: '20vw'}}>
                                     <div className="card-body">
                                         <Payment style={{ fontSize: '3.1em' }} />

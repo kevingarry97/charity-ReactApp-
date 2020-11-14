@@ -1,8 +1,8 @@
-/* .introSection {
-   background: linear-gradient(100deg, #008aff, #ff137d),
+.introSection {
+  background: linear-gradient(100deg, #008aff, #ff137d),
     url("https://cdn.pixabay.com/photo/2015/11/09/14/43/laptop-1035345_960_720.jpg");
-  background-blend-mode: screen; 
-} */
+  background-blend-mode: screen;
+}
 .custom-shape-divider-bottom-1605093493 {
   position: absolute;
   bottom: 0;
@@ -16,7 +16,7 @@
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 171px;
+  height: 90px;
   transform: rotateY(180deg);
 }
 

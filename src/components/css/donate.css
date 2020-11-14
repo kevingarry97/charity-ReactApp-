@@ -10,3 +10,11 @@
   background-size: cover;
   background-attachment: fixed;
 }
+.form-group input,
+.form-group textarea {
+  border: 0 !important;
+  padding-top: 1.2em !important;
+  padding-bottom: 1.2em !important;
+  background-color: #ecf5f2;
+  font-weight: 500;
+}

@@ -19,17 +19,17 @@ const Footer = () => {
                     </div>
                     <div className="col-md-3 col-sm-6 my-3">
                         <h4 className="mb-4">Top News</h4>
-                        <div class="media my-3">
-                            <img src="https://picsum.photos/100" class="img-fluid" />
-                            <div class="media-body ml-2">
-                                <h6 class="mt-0">Education for all poor children</h6>
+                        <div className="media my-3">
+                            <img src="https://picsum.photos/100" className="img-fluid" />
+                            <div className="media-body ml-2">
+                                <h6 className="mt-0">Education for all poor children</h6>
                                 <span style={{ fontSize: 14, marginTop: 20 }}>12 Nov, 2020</span>
                             </div>
                         </div>
-                        <div class="media my-3">
-                            <img src="https://picsum.photos/100" class="img-fluid" />
-                            <div class="media-body ml-2">
-                                <h6 class="mt-0">Education for all poor children</h6>
+                        <div className="media my-3">
+                            <img src="https://picsum.photos/100" className="img-fluid" />
+                            <div className="media-body ml-2">
+                                <h6 className="mt-0">Education for all poor children</h6>
                                 <span style={{ fontSize: 14, marginTop: 20 }}>12 Nov, 2020</span>
                             </div>
                         </div>
@@ -48,21 +48,21 @@ const Footer = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </span>
                         <div className="mt-4">
-                            <div class="media my-3">
+                            <div className="media my-3">
                                 <LocationOn fontSize="small" />
-                                <div class="media-body pl-2">
+                                <div className="media-body pl-2">
                                     <span>KK 457 St, Kigali city, Rwanda</span>
                                 </div>
                             </div>
-                            <div class="media my-3">
+                            <div className="media my-3">
                                 <PermPhoneMsg fontSize="small" />
-                                <div class="media-body pl-2">
+                                <div className="media-body pl-2">
                                     <span>+250 783 564 726</span>
                                 </div>
                             </div>
-                            <div class="media my-3">
+                            <div className="media my-3">
                                 <Email fontSize="small" />
-                                <div class="media-body pl-2">
+                                <div className="media-body pl-2">
                                     <span>kevin@gmail.com</span>
                                 </div>
                             </div>

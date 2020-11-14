@@ -1,0 +1,13 @@
+.contactSection {
+  background: linear-gradient(
+      to right,
+      rgba(11, 11, 17, 0.5),
+      rgba(4, 209, 124, 100)
+    ),
+    url("https://cdn.pixabay.com/photo/2014/09/26/09/33/girls-462072_960_720.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50vh;
+}
