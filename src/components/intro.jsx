@@ -1,4 +1,5 @@
 import React from 'react';
+import Charity from '../assets/images/charity.svg';
 import Donate from './common/donate';
 
 import './css/intro.css';
@@ -16,6 +17,9 @@ const Intro = () => {
                         </div>
                     </div>
                     <div className="col-md-5 mt-5" style={{ zIndex: 1}}>
+                        <div style={{ position: 'absolute' }}>
+                            <img src={Charity} className="img-fluid" alt=""/>
+                        </div>
                         <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                             <path fill="#00c853" d="M55.2,-67.8C68.2,-54.9,73.1,-34.3,73.8,-15.3C74.4,3.8,70.9,21.3,62.6,36.5C54.3,51.7,41.2,64.4,25.3,70.9C9.3,77.3,-9.4,77.4,-28.2,72.7C-47.1,67.9,-66,58.5,-76,42.9C-86.1,27.4,-87.4,5.9,-82.9,-13.7C-78.3,-33.3,-67.9,-50.9,-53.1,-63.5C-38.3,-76.1,-19.2,-83.6,1,-84.8C21.1,-85.9,42.2,-80.7,55.2,-67.8Z" transform="translate(100 100)" />
                         </svg>
