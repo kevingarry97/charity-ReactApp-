@@ -1,28 +1,11 @@
 import React from 'react';
-import { SettingsPhone, Email } from '@material-ui/icons';
 import Donate from './common/donate';
 import { NavLink } from 'react-router-dom';
+import './css/navbar.css';
 
 const Navbar = () => {
     return (
         <>
-            <header className="border-bottom">
-                <div className="container">
-                    <div className="row my-md-0 my-3 text-center">
-                        <div className="col-md-4 pt-md-3">
-                            <SettingsPhone color="action" style={{ fontSize: 18 }} /> &nbsp;
-                            <span>+250 782 345 235</span>
-                        </div>
-                        <div className="col-md-4">
-                            <Donate />
-                        </div>
-                        <div className="col-md-4 pt-md-3">
-                            <Email color="action" style={{ fontSize: 18 }} /> &nbsp;
-                            <span>kevingarry97@gmail.com</span>
-                        </div>
-                    </div>
-                </div>
-            </header>
             <nav className="navbar navbar-expand-lg navbar-light shadow">
                 <div className="container my-3">
                     <a className="navbar-brand" href="#">Logo</a>
@@ -47,6 +30,9 @@ const Navbar = () => {
                                 Contact Us
                             </NavLink>
                         </ul>
+                        <div className="ml-auto">
+                            <Donate />
+                        </div>
                     </div>
                 </div>
                 

@@ -1,0 +1,8 @@
+.nav-item {
+  font-size: 16px;
+  font-weight: 500;
+  color: #0c182f !important;
+}
+.nav-item:hover {
+  color: #09de90 !important;
+}
