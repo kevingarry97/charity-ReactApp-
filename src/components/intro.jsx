@@ -11,7 +11,7 @@ const Intro = () => {
                 <div className="row pt-5">
                     <div className="col-md-7 mt-5">
                         <div className="content text-muted">
-                            <h2 style={{color: "#011840"}}>Waves shape banner</h2>
+                            <h2 style={{color: "#011840"}}>We help and cares for helpless</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quod modi cum accusamus porro officia atque voluptas veritatis doloremque autem dignissimos sed eius tenetur, tempora dolores dolorem natus veniam soluta?</p>
                             <Donate />
                         </div>
